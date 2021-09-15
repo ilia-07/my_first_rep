@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* *{ звездочка это обращение ко всем элементам
+    padding: 0;
+    margin: 0;
+} */
+
+body{
+    background-color: rgb(229, 240, 240);
+    color: 0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'roboto', sans-serif;
+    /* font: normal 16px 'roboto', sans-serif; */
+}
+a 
+{
+    color: black;
+    text-decoration: none; /*отключает подчеркивание ссылки*/
+}
+
+a:hover /*наведение*/
+{
+    text-decoration: underline;
+    color: red;
+}
+
+a:active /*момент нажатия*/
+{
+    color: blue;
+}
+
+a:visited /*посещенная ссылка*/
+{
+    color: rgb(155, 155, 155);
+}
+.fotka /*Для ID ставится "#"" а для Class "." */
+{
+    width: 200px;
+    border-radius: 28px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p
+{
+    color: #86898f;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: lowercase; все маленькими буквами
+    text-transform: capitalize; каждое слово с большой буквы
+    text-transform: uppercase; все большими буквами */
+    /* letter-spacing: 15px; количество пикселей между символами */
+    /* word-spacing: 42px; ширина пробелов между словами */
+
+}
+
+.info
+{
+    margin-bottom: 20px;
+}
+
+/* box model */
+
+.container
+{
+    max-width: 750px;
+    margin: auto;
+}
+/* 
+.social 
+{
+background: #13ff7d;
+padding: 15px;
+margin: 5px;
+
+border: 5px solid red;
+border-bottom-style: dotted;
+border-top-width: 15px;
+border-right-color: blue;
+} */
+
+/* .box-model > div {
+float: left; прибитие
+background: rgb(0, 0, 0);
+height: 200px;
+width: 25%;
+border: 4px solid red;
+box-sizing: border-box; размер бокса с учетом бордера
+} */
+
+.card
+{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-yellow
+{
+    background: #fff9dc;
+}
+
+.bg-green
+{
+    background: #e5ffe7;
+}
+
+.bg-red
+{
+    background: #ffe5e5;
+}
+
+.card h2
+{
+margin-bottom: 10px;
+}
+
+.list
+{
+    padding: 0px 20px;
+}
+
+.list li
+{
+    color: #86898f;
+    margin-bottom: 10px;
+    
+}
+
+.table
+{
+    width: 100%;
+
+}
+
+.table td
+{
+   padding-bottom: 10px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3)
+{
+    color: grey;
+}
