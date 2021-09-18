@@ -1,70 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* *{ звездочка это обращение ко всем элементам
     padding: 0;
     margin: 0;
 } */
 
-body{
-    background-color: rgb(229, 240, 240);
-    color: 0f141e;
-    font-size: 16px;
-    font-weight: normal;
-    font-family: 'roboto', sans-serif;
-    /* font: normal 16px 'roboto', sans-serif; */
+body {
+  background-color: rgb(229, 240, 240);
+  color: 0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "roboto", sans-serif;
+  /* font: normal 16px 'roboto', sans-serif; */
 }
-a 
-{
-    color: black;
-    text-decoration: none; /*отключает подчеркивание ссылки*/
-}
-
-a:hover /*наведение*/
-{
-    text-decoration: underline;
-    color: red;
+a {
+  color: black;
+  text-decoration: none; /*отключает подчеркивание ссылки*/
 }
 
-a:active /*момент нажатия*/
-{
-    color: blue;
+a:visited /*посещенная ссылка*/ {
+  color: green;
 }
 
-a:visited /*посещенная ссылка*/
-{
-    color: rgb(155, 155, 155);
-}
-.fotka /*Для ID ставится "#"" а для Class "." */
-{
-    width: 200px;
-    border-radius: 28px;
-box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+a:hover /*наведение*/ {
+  text-decoration: underline;
+  color: red;
 }
 
-.info p
-{
-    color: #86898f;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: none;
-    /* text-transform: lowercase; все маленькими буквами
+a:active /*момент нажатия*/ {
+  color: blue;
+}
+
+.fotka /*Для ID ставится "#"" а для Class "." */ {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+  color: #86898f;
+  margin: 0px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: lowercase; все маленькими буквами
     text-transform: capitalize; каждое слово с большой буквы
     text-transform: uppercase; все большими буквами */
-    /* letter-spacing: 15px; количество пикселей между символами */
-    /* word-spacing: 42px; ширина пробелов между словами */
-
+  /* letter-spacing: 15px; количество пикселей между символами */
+  /* word-spacing: 42px; ширина пробелов между словами */
 }
 
-.info
-{
-    margin-bottom: 20px;
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
 }
 
 /* box model */
 
-.container
-{
-    max-width: 750px;
-    margin: auto;
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
 }
 /* 
 .social 
@@ -88,58 +91,113 @@ border: 4px solid red;
 box-sizing: border-box; размер бокса с учетом бордера
 } */
 
-.card
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0px 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: grey;
+}
+/* 
+.table tr:nth-child(even)
 {
+    background: red;
+} */
+
+.link-list {
+  list-style: url("/qqska.png");
+  padding: 0px;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contakt h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+    background: #111;
     padding: 15px 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
-.bg-yellow
-{
-    background: #fff9dc;
-}
-
-.bg-green
-{
-    background: #e5ffe7;
-}
-
-.bg-red
-{
-    background: #ffe5e5;
-}
-
-.card h2
-{
-margin-bottom: 10px;
-}
-
-.list
-{
-    padding: 0px 20px;
-}
-
-.list li
-{
-    color: #86898f;
-    margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
     
 }
 
-.table
-{
-    width: 100%;
-
-}
-
-.table td
-{
-   padding-bottom: 10px;
-}
-
-.table td:nth-child(2), 
-.table td:nth-child(3)
-{
-    color: grey;
+.btn:hover {
+    opacity: 0.7; /*прозрачность*/
 }

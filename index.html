@@ -9,21 +9,23 @@
     <div class="container">
       <div class="info">
         <img src="my_photo.jpg" alt="фотка" class="fotka" />
-        <h1>Симаков Илья</h1>
-        <p>Я <strong>хуй</strong> в говне, учусь какой то херне</p>
-        <!-- Тег <em></em> выделяет текст курсивом, тег <i></i> устаревший -->
-        <p>Я тут чуток с html поиграюсь</p>
-        <h4>Мои соц. сети</h4>
-        <a href="https://vk.com/simakov.ilia" target="blank">Контач</a>
-        I
-        <a href="https://www.instagram.com/">Инста</a>
+        <div class="info-text">
+          <h1>Акакий Власович</h1>
+          <p>Я <strong>хуй</strong> в говне, учусь какой то херне</p>
+          <!-- Тег <em></em> выделяет текст курсивом, тег <i></i> устаревший -->
+          <p>Я тут чуток с html поиграюсь</p>
+          <h4>Мои соц. сети</h4>
+          <a href="https://vk.com" target="blank">Контач</a>
+          I
+          <a href="https://www.instagram.com/" target="blank">Инста</a>
+        </div>
       </div>
 
       <div class="card bg-yellow">
         <h2>Мои хобби</h2>
         <ol type="I" class="list">
-          <li>Компы</li>
-          <li>Электрика</li>
+          <li>Утки</li>
+          <li>Грибы</li>
         </ol>
       </div>
 
@@ -36,44 +38,55 @@
             <td>Год</td>
           </tr>
           <tr>
-            <td>Рельеф Центр</td>
-            <td>Кладовщик</td>
+            <td>Центр</td>
+            <td>Зоозащитник</td>
             <td>2006-2009</td>
           </tr>
           <tr>
-            <td>Электрика от А до Я</td>
-            <td>Операционист</td>
+            <td>Майкрософт</td>
+            <td>Планктон</td>
             <td>2010-2012</td>
           </tr>
           <tr>
-            <td>ЭТМ</td>
-            <td>Менеджер</td>
+            <td>НПК</td>
+            <td>Стажер</td>
             <td>2012-2013</td>
           </tr>
           <tr>
-            <td>Ледер</td>
-            <td>специалист продаж</td>
+            <td>Лидер</td>
+            <td>Специалист</td>
             <td>2013</td>
           </tr>
         </table>
       </div>
       <div class="card bg-red">
         <h2>Какая-то хрень</h2>
-        <a href="хрень.html">Зырь</a><br />
+        <ul class="link-list">
+          <li><a href="https://www.youtube.com/" target="blank">Ютубчик</a></li>
+          <li><a href="https://www.yandex.ru/" target="blank">Яндекс</a></li>
+        </ul>
       </div>
-
-      <h2>Связь со мной</h2>
-      <form action="">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Имя" />
-        <br />
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Email" />
-        <br />
-        <label for="text">Ваше сообщение:</label><br />
-        <textarea id="text" cols="30" rows="10"></textarea><br />
-        <input type="submit" value="Связаться" />
-      </form>
+      <div class="contakt">
+        <h2>Связь со мной</h2>
+        <form action="">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Имя" />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш Email:</label>
+              <input type="email" id="email" placeholder="Email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Ваше сообщение:</label>
+            <textarea id="text" cols="30" rows="5"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Связаться" />
+        </form>
+      </div>
     </div>
+    <div style="margin-bottom: 500px;"></div>
   </body>
 </html>
