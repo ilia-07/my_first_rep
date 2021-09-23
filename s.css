@@ -1,0 +1,164 @@
+body {
+  background-image: url(fon.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(241, 242, 246);
+}
+
+p {
+  width: 400px;
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+
+a {
+  color: rgb(1, 101, 141);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  width: 400px;
+  min-height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.block_head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.reg {
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 50%;
+  text-align: left;
+}
+
+.krest {
+  padding-right: 10px;
+  width: 50%;
+  text-align: right;
+}
+
+.bil {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  color: gray;
+  border-bottom: 1px solid rgb(199, 196, 196);
+}
+
+.block1 {
+  padding: 10px 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  width: 50%;
+}
+
+.first {
+  width: 50%;
+}
+
+.num_pass {
+  padding: 0 10px;
+}
+
+.mobile_email {
+  width: 95%;
+}
+
+.pass {
+  width: 95%;
+}
+
+.name,
+.first,
+.mobile_email,
+.pass {
+  height: 33px;
+  border: 1px solid rgb(199, 196, 196);
+  border-radius: 4px;
+  margin: 5px;
+  background: rgb(245, 245, 245);
+  font-size: 15px;
+  padding-left: 7px;
+}
+
+.data {
+  padding: 0 10px 0;
+}
+
+#dey,
+#month,
+#year {
+  padding-left: 7px;
+  height: 33px;
+  width: 31.5%;
+  border-radius: 4px;
+  border: 1px solid rgb(199, 196, 196);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#month,
+#year {
+  margin-left: 5px;
+}
+
+.pol {
+  padding: 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wooman,
+.man,
+.pidor {
+  border: 1px solid rgb(199, 196, 196);
+  border-radius: 4px;
+  height: 20px;
+  padding: 7px;
+  width: 31.5%;
+  text-align: left;
+}
+
+.man,
+.pidor {
+  margin-left: 9px;
+}
+
+.submit {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: rgb(2, 172, 2);
+  border-radius: 5px;
+  border: none;
+  width: 180px;
+  height: 33px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 100px;
+}
