@@ -141,7 +141,7 @@ box-sizing: border-box; размер бокса с учетом бордера
 } */
 
 .link-list {
-  list-style: url("/qqska.png");
+  list-style: url("https://ilia-07.github.io/my_first_rep/qqska.png");
   padding: 0px;
 }
 
