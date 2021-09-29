@@ -1,0 +1,209 @@
+body {
+  background-color: #535353;
+}
+
+div {
+  color: white;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+}
+
+.main {
+  margin: auto;
+  max-width: 1000px;
+}
+
+header {
+  display: flex;
+}
+
+header > div {
+  width: 17%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 2px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.gl {
+  background: skyblue;
+}
+
+.do {
+  background: springgreen;
+}
+
+.op {
+  background: rgb(247, 208, 38);
+}
+
+.ak {
+  background: steelblue;
+}
+
+.st {
+  background: tomato;
+}
+
+.ko {
+  background: darkviolet;
+}
+
+.info {
+  display: flex;
+}
+
+.left > div {
+  width: 250px;
+  height: 75px;
+  background: red;
+  margin-bottom: 5px;
+}
+
+.l1 {
+  display: flex;
+  align-items: center;
+}
+
+.l1 > div {
+  margin: auto;
+}
+
+.l2 {
+  display: flex;
+  align-items: center;
+}
+
+.l2 > div {
+  margin: auto;
+}
+
+.l3 {
+  display: flex;
+  align-items: center;
+}
+
+.l3 > div {
+  margin: auto;
+}
+
+.l4 {
+  display: flex;
+  align-items: center;
+}
+
+.l4 > div {
+  margin: auto;
+}
+
+.l5 {
+  display: flex;
+  align-items: center;
+}
+
+.l5 > div {
+  margin: auto;
+}
+
+.right {
+  margin-left: 20px;
+}
+
+.raw1 {
+  padding-top: 10px;
+  background-image: url(fon2.png);
+  background-size: 100%;
+  background-position: bottom;
+  text-align: center;
+  height: 189px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background: lime;
+  border-radius: 2px;
+  border: none;
+  color: white;
+}
+
+.raw2 {
+  display: flex;
+}
+
+.r2c1 {
+  width: 50%;
+  height: 60px;
+  float: left;
+  background: rgb(247, 208, 38);
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.r2c2 {
+  width: 50%;
+  height: 60px;
+  float: right;
+  background: skyblue;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.raw3 {
+  display: flex;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.raw3 > div {
+  width: 33%;
+  height: 100px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.r3c1 {
+  background: springgreen;
+  text-align: center;
+}
+
+.disk {
+  width: 35px;
+}
+
+.r3c2 {
+  margin-left: 20px;
+  background: steelblue;
+  text-align: center;
+}
+
+.str {
+  width: 35px;
+}
+
+.r3c3 {
+  margin-left: 20px;
+  background: tomato;
+  text-align: center;
+}
+
+.she {
+  width: 35px;
+}
