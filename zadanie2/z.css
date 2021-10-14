@@ -14,7 +14,7 @@ h1 {
   font-style: normal;
 }
 
-.main {
+.container {
   margin: auto;
   max-width: 1000px;
 }
@@ -24,13 +24,12 @@ header {
 }
 
 header > div {
-  width: 17%;
-  height: 50px;
+  width: calc(100%);
+  line-height: 16px;
+  padding: 20px 0;
   text-align: center;
   margin-bottom: 20px;
   margin-left: 2px;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .gl {
@@ -61,59 +60,18 @@ header > div {
   display: flex;
 }
 
-.left > div {
+nav > div {
   width: 250px;
-  height: 75px;
+  line-height: 16px;
+  padding: 30px 0;
+  text-align: center;
   background: red;
   margin-bottom: 5px;
 }
 
-.l1 {
-  display: flex;
-  align-items: center;
-}
 
-.l1 > div {
-  margin: auto;
-}
 
-.l2 {
-  display: flex;
-  align-items: center;
-}
-
-.l2 > div {
-  margin: auto;
-}
-
-.l3 {
-  display: flex;
-  align-items: center;
-}
-
-.l3 > div {
-  margin: auto;
-}
-
-.l4 {
-  display: flex;
-  align-items: center;
-}
-
-.l4 > div {
-  margin: auto;
-}
-
-.l5 {
-  display: flex;
-  align-items: center;
-}
-
-.l5 > div {
-  margin: auto;
-}
-
-.right {
+main {
   margin-left: 20px;
 }
 
@@ -143,7 +101,6 @@ button {
 .r2c1 {
   width: 50%;
   height: 60px;
-  float: left;
   background: rgb(247, 208, 38);
   padding: 10px;
   font-size: 14px;
@@ -153,7 +110,6 @@ button {
 .r2c2 {
   width: 50%;
   height: 60px;
-  float: right;
   background: skyblue;
   margin-left: 20px;
   padding: 10px;

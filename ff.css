@@ -1,0 +1,24 @@
+.flex {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    background: cornflowerblue;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* align-content: space-between; */
+}
+
+.flex > div {
+    width: 200px;
+    height: 50px;
+    background: darkgreen;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.i6 {
+    /* flex-grow: 2; */
+ align-self: flex-end;
+}

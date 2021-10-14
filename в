@@ -1,0 +1,3 @@
+flex-direction: row, row-reverse, column, column-reverse
+justify-content: flex-start, flex-end, center, space-between, space-around
+align-items: center, 

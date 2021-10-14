@@ -1,0 +1,83 @@
+.my-flex-container {
+    height: 500px;
+    background: cornflowerblue;
+    display: flex;
+    /* flex-direction: - направление главной оси */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content – выравнивание по главной оси */
+
+    /* flex-start (значение по умолчанию) : блоки прижаты к началу главной оси
+    flex-end: блоки прижаты к концу главной оси
+
+    center: блоки располагаются в центре главной оси
+
+    space-between: первый блок располагается в начале главной оси,
+     последний блок – в конце, все остальные блоки равномерно распределенЫ в 
+     оставшемся пространстве.
+
+    space-around: все блоки равномерно распределены вдоль главной оси, разделяя 
+    все свободное пространство поровну. */
+
+justify-content: space-between;
+
+/* align-items – выравнивание по поперечной оси.
+
+flex-start: блоки прижаты к началу поперечной оси
+
+flex-end: блоки прижаты к концу поперечной оси
+
+center: блоки располагаются в центре поперечной оси
+
+baseline: блоки выровнены по их baseline
+
+stretch (значение по умолчанию) : блоки растянуты, занимая все доступное место 
+по поперечной оси, при этом все же учитываются min-width/max-width, если таковые заданы. */
+align-items:center ;
+
+/* flex-wrap: nowrap; многострочность в данном случае запрет переноса, это значение по умолчанию */
+
+flex-wrap: nowrap;
+
+/* flex-flow – удобное сокращение для flex-direction + flex-wrap
+По умолчанию flex-flow: row nowrap */
+
+/* flex-flow: column wrap; пример */
+
+/* align-content: space-between; образно говоря это тоже самое что
+ и justify-content только по другой оси в данном случае
+  по вертикали */
+  /* Важно: align-content работает только в многострочном режиме
+   (т.е. в случае flex-wrap:wrap; или flex-wrap:wrap-reverse;) */
+
+
+}
+
+.my-flex-container > div {
+    background: red;
+    /* width: 50px; */
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.my-flex-container div:nth-child(-n+11) {
+    /* flex-grow: 1; */
+    width: 300px;
+    
+}
+
+.my-flex-container div:nth-child(5) {
+    /* flex-shrink: 5; степень сжимаемости что бы это не значило)) */
+    /* align-self: flex-end; Делает возможным переопределять свойство flex-контейнера align-items для отдельного flex-блока. */
+}
+
+.block {
+    /* flex-grow: 2; */
+    /* flex-basis: 100px; */
+    /* order – порядок следования отдельно взятого flex-блока внутри flex-контейнера. По умолчанию 0 и если задать любое
+     значение ордер только одному блоку, то он всегда будет стоять после остальных.  */
+}
