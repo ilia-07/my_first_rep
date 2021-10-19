@@ -1,9 +1,5 @@
-html {
-  
-}
-
 .container {
-  width: 500px;
+  width: 450px;
   margin: auto;
   min-height: 550px;
   font-size: 14px;
@@ -12,59 +8,53 @@ html {
 
 .header {
   width: 100%;
-  height: 170px;
+  height: 150px;
   background: rgb(195, 195, 195);
   position: relative;
 }
 
 .logo {
   position: absolute;
-  margin-left: 10%;
-  margin-top: 10px;
-  right:0;
-  bottom:10px;
+  top: 10px;
+  left: 40px;
 }
 
 .menu {
-  float: right;
-  margin-top: 10px;
-  margin-right: 10%;
-  
+  position: absolute;
+  top: 10px;
+  right: 40px;
 }
 
 .menu a {
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    color: rgb(88, 88, 88);
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: rgb(88, 88, 88);
 }
 
 .header_text {
   position: absolute;
-  width: 100px;
-  margin-top: 40px;
-  margin-left: 10%;
+  width: 140px;
+  top: 40px;
+  left: 40px;
 }
 
 .intro {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .fps {
-  float: right;
-  /* width: 200px; */
-  width: 45%;
-  height: 65%;
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+  width: 220px;
+  height: 100px;
   line-height: 14px;
-  padding: 40px;
+  padding: 40px 60px 40px 60px;
   box-sizing: border-box;
   background: rgb(159, 159, 159);
-  /* position: absolute; */
-  margin-top: 20px;
-  /* margin-left: 45%; */
-  margin-right: 10%;
-  /* margin-bottom: 10px; */
 }
 
 .main {
@@ -83,55 +73,55 @@ html {
   width: 7px;
 }
 
-.flex {
+.main_block {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: space-between;
-  height: 240px;
 }
 
 .block {
-  width: 30%;
-  height: 100px;
+  width: 32%;
+  height: 130px;
   background: rgb(195, 195, 195);
   margin-bottom: 20px;
   text-align: center;
   line-height: 16px;
-  padding: 40px 0;
+  padding: 57px 0;
   box-sizing: border-box;
 }
 
 .twitter {
   width: 100%;
-  line-height: 30px;
+  line-height: 40px;
   background: rgb(195, 195, 195);
   padding-left: 10px;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 footer {
   width: 100%;
-  line-height: 30px;
+  height: 40px;
+  line-height: 14px;
   box-sizing: border-box;
   background: rgb(195, 195, 195);
-  padding-left: 10%;
+  padding: 13px 10%;
   position: relative;
 }
 
-.menu1 {
-    display: inline;
+.menu_down {
+  display: inline-block;
 }
-.menu1 a {
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    color: rgb(88, 88, 88);
+.menu_down a {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: rgb(88, 88, 88);
 }
 
 .right {
-    display: inline;
-    float: right;
-    margin-right: 10%;
+  display: inline-block;
+  position: absolute;
+  right: 10%;
 }
